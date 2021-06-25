@@ -333,6 +333,7 @@
 		84EDB88DF38CE22AC4893B65 /* Pods-Tests-pop-tests-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-pop-tests-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-pop-tests-ios/Pods-Tests-pop-tests-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		85D44E5C12C69E1AC9E27D0B /* Pods-Tests-pop-tests-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-pop-tests-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-pop-tests-ios/Pods-Tests-pop-tests-ios.release.xcconfig"; sourceTree = "<group>"; };
 		90AA30B618988BBE00E3BDF7 /* POPSpringSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringSolver.h; sourceTree = "<group>"; };
+		AACFE8082685F7450066BA4C /* pop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pop-Bridging-Header.h"; sourceTree = "<group>"; };
 		CD42CE6B1B541B1300EC9556 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = pop/module.modulemap; sourceTree = SOURCE_ROOT; };
 		D35FAC2FD6DFC1CC1BD1A636 /* Pods-Tests-pop-tests-ios.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-pop-tests-ios.profile.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-pop-tests-ios/Pods-Tests-pop-tests-ios.profile.xcconfig"; sourceTree = "<group>"; };
 		EC0AE12F16BC73CE001DA2CE /* POPAnimationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationExtras.h; sourceTree = "<group>"; };
@@ -598,6 +599,7 @@
 			isa = PBXGroup;
 			children = (
 				ECA94D0B18ECAE82002E4CEB /* POP.h */,
+				AACFE8082685F7450066BA4C /* pop-Bridging-Header.h */,
 				EC8F015918FFBD7A00DF8905 /* Animations */,
 				EC8F017318FFC4CB00DF8905 /* Engine */,
 				EC8F017218FFC44800DF8905 /* Utility */,
