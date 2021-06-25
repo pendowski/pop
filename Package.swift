@@ -19,7 +19,8 @@ let package = Package(
             cSettings: [
                 .headerSearchPath("."),
                 .headerSearchPath("WebCore"),
-                .headerSearchPath("./..")
+                .headerSearchPath("./.."),
+                .headerSearchPath("include")
             ]
         )
     ],

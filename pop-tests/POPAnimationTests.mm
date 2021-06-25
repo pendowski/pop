@@ -13,9 +13,9 @@
 
 #import <XCTest/XCTest.h>
 
-#import <pop/POP.h>
-#import <pop/POPAnimationPrivate.h>
-#import <pop/POPAnimatorPrivate.h>
+#import <POP.h>
+#import <POPAnimationPrivate.h>
+#import <POPAnimatorPrivate.h>
 
 #import "POPAnimatable.h"
 #import "POPAnimationRuntime.h"

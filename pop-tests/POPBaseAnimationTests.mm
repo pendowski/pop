@@ -13,8 +13,8 @@
 
 #import <OCMock/OCMock.h>
 
-#import <pop/POP.h>
-#import <pop/POPAnimatorPrivate.h>
+#import <POP.h>
+#import <POPAnimatorPrivate.h>
 
 #import "POPAnimatable.h"
 #import "POPAnimationTestsExtras.h"

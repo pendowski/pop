@@ -9,7 +9,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import <pop/POPAnimatableProperty.h>
+#import <POPAnimatableProperty.h>
 
 static const CGFloat epsilon = 0.0001f;
 static NSArray *properties = @[@"name", @"readBlock", @"writeBlock", @"threshold"];

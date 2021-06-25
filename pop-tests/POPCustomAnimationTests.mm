@@ -11,7 +11,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import <pop/POPCustomAnimation.h>
+#import <POPCustomAnimation.h>
 
 #import "POPAnimatable.h"
 #import "POPAnimationTestsExtras.h"

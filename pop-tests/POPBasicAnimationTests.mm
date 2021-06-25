@@ -10,7 +10,7 @@
 #import <XCTest/XCTest.h>
 
 #import <OCMock/OCMock.h>
-#import <pop/POPBasicAnimation.h>
+#import <POPBasicAnimation.h>
 
 #import "POPAnimatable.h"
 #import "POPAnimationTestsExtras.h"

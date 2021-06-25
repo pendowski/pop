@@ -13,8 +13,8 @@
 
 #import <XCTest/XCTest.h>
 
-#import <pop/POP.h>
-#import <pop/POPAnimatorPrivate.h>
+#import <POP.h>
+#import <POPAnimatorPrivate.h>
 
 #import "POPAnimationTestsExtras.h"
 
