@@ -1061,7 +1061,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0700;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					0755AE4E1BEA15950094AB41 = {
@@ -1083,10 +1083,11 @@
 			};
 			buildConfigurationList = EC191212162FB53A00E0CC76 /* Build configuration list for PBXProject "pop" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = EC19120D162FB53A00E0CC76;
 			productRefGroup = EC191219162FB53A00E0CC76 /* Products */;
@@ -1482,12 +1483,14 @@
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(PROJECT_DIR)/pop/pop-tvos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/pop/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.pop;
 				PRODUCT_NAME = pop;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1498,12 +1501,14 @@
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(PROJECT_DIR)/pop/pop-tvos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/pop/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.pop;
 				PRODUCT_NAME = pop;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1514,12 +1519,14 @@
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(PROJECT_DIR)/pop/pop-tvos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/pop/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.pop;
 				PRODUCT_NAME = pop;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Profile;
 		};
@@ -1631,12 +1638,14 @@
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(PROJECT_DIR)/pop/pop-ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/pop/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.pop;
 				PRODUCT_NAME = pop;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1647,12 +1656,14 @@
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(PROJECT_DIR)/pop/pop-ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/pop/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.pop;
 				PRODUCT_NAME = pop;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1663,12 +1674,14 @@
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(PROJECT_DIR)/pop/pop-ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/pop/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.pop;
 				PRODUCT_NAME = pop;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Profile;
 		};
@@ -1676,6 +1689,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECC1DB1618CA291B008C7DEA /* Project-Profile.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Profile;
 		};
@@ -1683,8 +1700,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECC1DB1A18CA291B008C7DEA /* StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = pop;
 				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Profile;
 		};
@@ -1692,6 +1711,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECC1DB1218CA291B008C7DEA /* Project-Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1699,6 +1722,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECC1DB1718CA291B008C7DEA /* Project-Release.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1706,8 +1733,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECC1DB1A18CA291B008C7DEA /* StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = pop;
 				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1715,8 +1744,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECC1DB1A18CA291B008C7DEA /* StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = pop;
 				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1727,9 +1758,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(PROJECT_DIR)/pop/pop-osx-Info.plist";
 				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.pop;
 				PRODUCT_NAME = pop;
 				SDKROOT = macosx;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1740,9 +1773,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(PROJECT_DIR)/pop/pop-osx-Info.plist";
 				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.pop;
 				PRODUCT_NAME = pop;
 				SDKROOT = macosx;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1753,9 +1788,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(PROJECT_DIR)/pop/pop-osx-Info.plist";
 				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.pop;
 				PRODUCT_NAME = pop;
 				SDKROOT = macosx;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Profile;
 		};
