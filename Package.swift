@@ -15,6 +15,7 @@ let package = Package(
                 "pop-tvos-Info.plist",
                 "POP.h",
                 "Swift"],
+            publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath("."),
                 .headerSearchPath("WebCore"),
