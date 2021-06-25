@@ -20,7 +20,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/NSException.h>
 
-#import "POPDefines.h"
+#import <POPDefines.h>
 
 #if SCENEKIT_SDK_AVAILABLE
 #import <SceneKit/SceneKit.h>
