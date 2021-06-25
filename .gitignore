@@ -16,5 +16,6 @@ Pods
 
 DerivedData
 build
+.build
 
 .ruby-version
